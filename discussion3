@@ -1,0 +1,19 @@
+using System;
+
+namespace Discusion_3
+{
+    class octopus1 
+    {
+
+        static void Main(string[] args)
+        {
+            Octopus octopus1 = new Octopus();
+            octopus1.eyes = 2;
+            octopus1.legs = 8;
+
+
+            Console.WriteLine(octopus1.eyes + octopus1.legs);
+            Console.ReadLine();
+        }
+    }
+}
